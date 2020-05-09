@@ -1,0 +1,140 @@
+{
+	"info": {
+		"_postman_id": "caaef7fe-4198-412d-aaf6-d42a6d3904d6",
+		"name": "Aop-example",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "loggingItemData|InValildData",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/v1/logging/itemData/3"
+			},
+			"response": []
+		},
+		{
+			"name": "loggingItemData|ValidData",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/v1/logging/itemData/30"
+			},
+			"response": []
+		},
+		{
+			"name": "LoggingNameData|ValidData",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/logging/nameData?name=sudhanshu",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"logging",
+						"nameData"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "sudhanshu"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LoggingNameData|InvalidValidData",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/logging/nameData?name=sid",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"logging",
+						"nameData"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "sid"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "loggingPhoneNumber| ValidData",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/logging/phoneData?phoneNumber=8754533828",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"logging",
+						"phoneData"
+					],
+					"query": [
+						{
+							"key": "phoneNumber",
+							"value": "8754533828"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "loggingPhoneNumber| InvalidValidData",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/logging/phoneData?phoneNumber=21",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"logging",
+						"phoneData"
+					],
+					"query": [
+						{
+							"key": "phoneNumber",
+							"value": "21"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
