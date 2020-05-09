@@ -1,5 +1,5 @@
 # CustomLoggingAnnotation
-Custom Annotation used for logging by using Spring AOP
+Custom Annotation used for logging by using Spring AOP and also contains the Junit & integration tests with help of Junit5.
 
 Based on the execution strategy of advices, they are of following types.
 Before Advice: These advices runs before the execution of join point methods. We can use @Before annotation to mark an advice type as Before advice.

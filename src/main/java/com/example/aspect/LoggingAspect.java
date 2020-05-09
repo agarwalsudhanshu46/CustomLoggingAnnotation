@@ -1,4 +1,4 @@
-package com.example.config;
+package com.example.aspect;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -13,6 +13,12 @@ import org.slf4j.LoggerFactory;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
+/**
+ * This class is acting as a aspect and contains the various advice.
+ * 
+ * @author sagarwal
+ *
+ */
 @Aspect
 @Component
 @Order(-13)

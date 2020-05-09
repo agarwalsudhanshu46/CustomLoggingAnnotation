@@ -9,6 +9,13 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import com.example.dto.ErrorResposne;
 
+/**
+ * This class is acting as a exception handler, which will handle multiple custom
+ * exceptions.
+ * 
+ * @author sagarwal
+ *
+ */
 @RestControllerAdvice
 public class ApplicationExceptionHandler {
 	private static Logger LOGGER = LoggerFactory.getLogger(ApplicationExceptionHandler.class);
