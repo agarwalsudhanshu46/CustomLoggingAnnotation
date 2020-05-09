@@ -32,3 +32,5 @@ In our example, the expressions passed in @AfterReturning(pointcut = "@annotatio
 In our example, LoggingController is advised object hence it is the target object.
 
 6) AOP proxy : an object created by the AOP framework in order to implement the aspect contracts (advice method executions and so on). In the Spring Framework, an AOP proxy will be a JDK dynamic proxy or a CGLIB proxy.
+
+Note: Postman collection  added to execute the api.
